@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <section className="flex min-h-[70vh] flex-col items-center justify-center text-center">
+      <section className="flex min-h-[calc(100vh-120px)] flex-col items-center justify-center py-24 text-center">
         <div className="eyebrow">Request Access</div>
         <h1 className="max-w-[600px] text-[56px] font-bold leading-[0.95] tracking-[-0.04em] max-md:text-[36px]">
           See AETH in action.
